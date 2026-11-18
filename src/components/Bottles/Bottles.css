@@ -1,0 +1,15 @@
+.bottle-card{
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 20px;
+    align-items: left;
+
+}
+
+.bottle-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 20px;
+    text-align: left;
+    font-weight: bold;
+}
